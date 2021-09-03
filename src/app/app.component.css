@@ -1,0 +1,525 @@
+* {
+    font-family: 'Roboto';
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    background: #f0f0f0;
+
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-weight: 800;
+    color: black;
+    text-shadow: rgb(160, 160, 160) 2px 2px 3px;
+}
+
+.mat-list-base {
+    display: flex;
+    padding-top: 0px;
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.mat-list-base a:hover {
+    background-color: rgb(255, 255, 255);
+    color: orange;
+}
+.desktop-hide {
+    display: none !important;
+}
+
+.mat-drawer:not(.mat-drawer-side) {
+    position: fixed;
+}
+
+.mat-drawer-backdrop {
+    position: fixed;
+}
+
+  .mat-drawer {
+    width: 100%;
+}
+
+.mat-drawer .close {
+    font-size: 28px;
+    color: rgb(44, 44, 44);
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.mat-drawer h1 {
+    color: rgb(255, 249, 249);
+}
+
+.mat-drawer .mat-list-base {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+  .mat-drawer .mat-list-base a {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mat-button {
+    font-size: 18px;
+    line-height: 58px;
+}
+.like {
+    font-size: 10px;
+}
+.mat-toolbar {
+    background-color: #ffaf19;
+}
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.mat-list-base .mat-list-item {
+    color: rgb(51, 50, 50);
+}
+
+.mat-icon {
+    color: #1a1a1a;
+}
+ h2 {
+    text-align: center;
+    font-size: 32px;
+}
+ img {
+    width: 100%;
+    height: 100%;
+}
+
+.mat-icon {
+    height: auto !important;
+    width: auto !important;
+}
+  .silder {
+      
+    background-color: orange;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+  .silder .silder-content {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+ 
+.silder .mat-icon {
+    font-size: 40px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+}
+
+.silder h1 {
+    color: #fff;
+    margin: 100px;
+    font-size: 50px;
+}
+.example-card {
+  max-width: 400px;
+  padding: 10px;
+  margin: 50px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+  padding: 10px;
+  margin: 50px;
+}
+
+.center-content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.features {
+    padding-top: 60px;
+}
+
+.features .row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.features .row .column {
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.features .row .column:hover {
+    background-color: #dfe4ea;
+    cursor: pointer;
+}
+
+.features .row .column p {
+    padding: 0 10px;
+}
+
+.features h3 {
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+
+.features .mat-icon {
+    font-size: 66px;
+}
+
+.contents {
+    padding-top: 20px;
+}
+
+.contents h2 {
+    padding-bottom: 30px;
+}
+
+.contents .row {
+    width: 100%;
+    display: flex;
+}
+
+.contents .row .column {
+    width: 50%;
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+.contents .row h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.contents .row p {
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.contactus {
+    background-image: url('https://unsplash.com/photos/T-0EW-SEbsE/download?force=true');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contactus .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: rgba(222, 222, 222, 0.5);
+}
+
+.contactus .mat-form-field.mat-focused .mat-form-field-label {
+    color: #1a1a1a;
+}
+
+.contactus .mat-input-element {
+    caret-color: #1a1a1a;
+}
+
+.contactus h2 {
+    color: #fff;
+}
+
+.contactus form {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contactus .mat-form-field {
+    width: 100%;
+}
+
+.contactus button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: orange;
+    color: #fff;
+}
+  .footer span {
+    margin: auto;
+}
+  @media (max-width: 842px) {
+    h3 {
+      font-size: 22px !important;
+    }
+    p {
+      font-size: 16px !important;
+    }
+  }
+  
+.mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: #1a1a1a !important;
+}
+@media (max-width: 768px) {
+    .nav {
+      display: none !important;
+    }
+    .desktop-hide {
+      display: block !important;
+    }
+    .silder h1 {
+      font-size: 36px;
+    }
+    .features .row {
+      flex-direction: column;
+    }
+    .features .column {
+      width: 100% !important;
+    }
+    .contents h2 {
+      padding: 0px !important;
+    }
+    .contents .row {
+      flex-direction: column;
+    }
+    .contents .row:nth-child(2), .contents .row:nth-child(4) {
+      display: none;
+    }
+    .contents .column {
+      width: 100% !important;
+    }
+  }
+
+@media (max-width: 542px) {
+    .contactus {
+      height: auto;
+    }
+    .contactus form {
+      width: 70%;
+    }
+  }
+
+.mat-toolbar {
+    justify-content: space-between;
+}
+
+.content {
+    padding: 16px;
+}
+
+.content > mat-card {
+    margin-bottom: 16px;
+}
+
+/*formulario*/
+
+.wrap {
+    width: 90%;
+    max-width: 500px;
+    padding: 40px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 0px 3px grey; }
+  
+  .contenedor-formulario {
+    width: 100%;
+    color: #f2f2f2;
+    padding: 50px; }
+    .contenedor-formulario .formulario {
+      width: 100%;
+      margin: auto; }
+      .contenedor-formulario .formulario .input-group {
+        position: relative;
+        margin-bottom: 32px; }
+        .contenedor-formulario .formulario .input-group input[type="text"],
+        .contenedor-formulario .formulario .input-group input[type="email"],
+        .contenedor-formulario .formulario .input-group input[type="password"] {
+          font-family: "Roboto";
+          font-size: 16px;
+          color: #000000;
+          width: 100%;
+          outline: none;
+          padding: 15px;
+          background: none;
+          border: none;
+          border-bottom: 2px solid #fbdabb; }
+          .contenedor-formulario .formulario .input-group input[type="text"]:focus, .contenedor-formulario .formulario .input-group input[type="text"]:active,
+          .contenedor-formulario .formulario .input-group input[type="email"]:focus,
+          .contenedor-formulario .formulario .input-group input[type="email"]:active,
+          .contenedor-formulario .formulario .input-group input[type="password"]:focus,
+          .contenedor-formulario .formulario .input-group input[type="password"]:active {
+            outline: none;
+            border-bottom: 2px solid orange; }
+          .contenedor-formulario .formulario .input-group input[type="text"].error,
+          .contenedor-formulario .formulario .input-group input[type="email"].error,
+          .contenedor-formulario .formulario .input-group input[type="password"].error {
+            border-bottom: 2px solid #D32F2F; }
+            .contenedor-formulario .formulario .input-group input[type="text"].error + label,
+            .contenedor-formulario .formulario .input-group input[type="email"].error + label,
+            .contenedor-formulario .formulario .input-group input[type="password"].error + label {
+              color: #D32F2F; }
+        .contenedor-formulario .formulario .input-group label {
+          color: rgb(99, 99, 99); }
+          .contenedor-formulario .formulario .input-group label.label {
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            margin-left: 15px;
+            font-size: 16px;
+            line-height: 16px;
+            position: absolute;
+            top: 16px;
+            left: 0; }
+            .contenedor-formulario .formulario .input-group label.label.active {
+              top: -12px;
+              font-size: 12px;
+              line-height: 12px;
+              color: #B6B6B6; }
+        .contenedor-formulario .formulario .input-group.checkbox label, .contenedor-formulario .formulario .input-group.radio label {
+          display: inline-block;
+          cursor: pointer;
+          color: rgb(99, 99, 99);
+          position: relative;
+          padding: 5px 15px 5px 51px;
+          font-size: 1em;
+          border-radius: 3px;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .contenedor-formulario .formulario .input-group.checkbox label:hover, .contenedor-formulario .formulario .input-group.radio label:hover {
+            background: #bbdefb; }
+          .contenedor-formulario .formulario .input-group.checkbox label:before, .contenedor-formulario .formulario .input-group.radio label:before {
+            content: "";
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            left: 15px;
+            border-radius: 50%;
+            background: none;
+            border: 2px solid orange; }
+        .contenedor-formulario .formulario .input-group.error label {
+          color: #D32F2F; }
+          .contenedor-formulario .formulario .input-group.error label:hover {
+            background: rgba(211, 47, 47, 0.2); }
+          .contenedor-formulario .formulario .input-group.error label:before {
+            border: 2px solid #D32F2F; }
+        .contenedor-formulario .formulario .input-group.radio input[type="radio"] {
+          display: none; }
+          .contenedor-formulario .formulario .input-group.radio input[type="radio"]:checked + label:before {
+            display: none; }
+          .contenedor-formulario .formulario .input-group.radio input[type="radio"]:checked + label {
+            padding: 5px 15px;
+            background: orange;
+            border-radius: 2px;
+            color: #f2f2f2; }
+        .contenedor-formulario .formulario .input-group.checkbox label:before {
+          border-radius: 3px; }
+        .contenedor-formulario .formulario .input-group.checkbox input[type="checkbox"] {
+          display: none; }
+          .contenedor-formulario .formulario .input-group.checkbox input[type="checkbox"]:checked + label:before {
+            display: none; }
+          .contenedor-formulario .formulario .input-group.checkbox input[type="checkbox"]:checked + label {
+            background: #f19710;
+            color: #f2f2f2;
+            padding: 5px 15px; }
+      .contenedor-formulario .formulario input[type="submit"] {
+        background: #3295d8;
+        border-radius: 1px;
+        border: 2px solid #f2f2f2;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Roboto";
+        font-size: 16px;
+        padding: 15px;
+        width: 100%;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .contenedor-formulario .formulario input[type="submit"]:hover {
+          background: #8ab6e2; 
+        }
+
+
+        .home-footer-top {
+            background-color: #212121;
+            color: #ffffff !important;
+            padding: 20px;
+          }
+          .mat-list-item {
+            color: #ffffff !important;
+          }
+          .footer-box {
+            padding: 30px;
+            box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.2);
+          }
+          .footer-box:first-child {
+            padding-left: 0;
+          }
+          .footer-box-title {
+            position: relative;
+            margin: 0 0 24px;
+            padding-bottom: 12px;
+          }
+          .footer-box-title::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 64px;
+            background-color: orange;
+          }
+          .footer-box .mat-list {
+            padding: 5;
+          }
+          .footer-box .mat-list-item-content {
+            padding-left: 5;
+          }
+          .footer-box .mat-list-text {
+            color: orange;
+            padding: 5;
+          }
+          
+          .social-icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin: 8px;
+          }
+          
+          @media (max-width: 959px) {
+            .footer-box:first-child {
+              padding-left: 30px;
+            }
+            .footer-box {
+              box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+            }
+          }
+          
+
+    
+  
